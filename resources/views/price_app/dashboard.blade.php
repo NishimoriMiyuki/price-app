@@ -29,11 +29,32 @@
                             x-on:click="$dispatch('open-modal', 'product-modal')">
                             商品名
                         </h3>
-                        <p class="text-gray-700 dark:text-gray-300 mb-4">説明</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-green-600">価格</span>
-                            <x-primary-button>購入</x-primary-button>
-                        </div>
+                        <ul class="space-y-4">
+                            
+                            <!-- Amazon -->
+                            <li class="flex justify-between items-center">
+                                <span class="text-lg font-semibold text-green-600">価格</span>
+                                <x-primary-button>移動</x-primary-button>
+                            </li>
+                            
+                            <!-- 楽天 -->
+                            <li class="flex justify-between items-center">
+                                <span class="text-lg font-semibold text-green-600">価格</span>
+                                <x-primary-button>移動</x-primary-button>
+                            </li>
+                            
+                            <!-- Yahoo!ショッピング -->
+                            <li class="flex justify-between items-center">
+                                <span class="text-lg font-semibold text-green-600">価格</span>
+                                <x-primary-button>移動</x-primary-button>
+                            </li>
+                            
+                            <!-- ユーザーが任意で入れる価格 複数可能 -->
+                            <li class="flex justify-between items-center">
+                                <span class="text-lg font-semibold text-green-600">価格</span>
+                                <x-primary-button>移動</x-primary-button>
+                            </li>
+                        </ul>
                     </div>
                     
                 </div>
